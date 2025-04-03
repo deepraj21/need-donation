@@ -30,7 +30,7 @@ const HeroSection = () => {
                 </Button>
               </Link>
               <Link to="/upload-patient">
-                <Button size="lg" variant="outline" className="border-donation-primary text-donation-primary hover:bg-donation-muted">
+                <Button size="lg" variant="outline" className="border-donation-primary text-donation-primary">
                   Raise Donation
                 </Button>
               </Link>
