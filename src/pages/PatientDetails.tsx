@@ -81,7 +81,7 @@ const PatientDetails = () => {
             <div className="lg:col-span-2 space-y-8">
               <Card>
                 <CardHeader>
-                  <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium mb-2 ${
+                  <div className={`inline-flex items-center px-3 py-1 w-fit rounded-full text-xs font-medium mb-2 ${
                     patient.status === "Critical" 
                       ? "bg-red-100 text-red-800" 
                       : patient.status === "Stable" 
